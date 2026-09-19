@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "owner": {
     "name": "StoreKit",
-    "email": "devops@storekit.com",
+    "email": "mcp@storekit.com",
     "url": "https://github.com/store-kit"
   },
   "metadata": {
@@ -22,7 +22,7 @@
       "version": "1.0.0",
       "author": {
         "name": "StoreKit",
-        "email": "devops@storekit.com",
+        "email": "mcp@storekit.com",
         "url": "https://storekit.com"
       },
       "homepage": "https://github.com/store-kit/claude-plugin#readme",

@@ -6,7 +6,7 @@
   "description": "Connects Claude to the StoreKit MCP server. Sign in with your StoreKit dashboard account via OAuth.",
   "author": {
     "name": "StoreKit",
-    "email": "devops@storekit.com",
+    "email": "mcp@storekit.com",
     "url": "https://storekit.com"
   },
   "homepage": "https://github.com/store-kit/claude-plugin#readme",
