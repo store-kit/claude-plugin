@@ -1,0 +1,25 @@
+{
+  "name": "storekit",
+  "owner": {
+    "name": "StoreKit",
+    "email": "engineering@storekit.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for StoreKit. Connects Claude to the StoreKit MCP server over OAuth.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "storekit",
+      "source": "./plugins/storekit",
+      "description": "StoreKit MCP server: venues, orders, menus, stats, discounts, refunds, bills and payment links for your account. Authenticates with your StoreKit dashboard login via OAuth.",
+      "version": "1.0.0",
+      "author": {
+        "name": "StoreKit"
+      },
+      "homepage": "https://github.com/store-kit/claude-plugin",
+      "category": "productivity",
+      "keywords": ["storekit", "hospitality", "orders", "mcp", "oauth"]
+    }
+  ]
+}

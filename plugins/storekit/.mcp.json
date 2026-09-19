@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "storekit": {
+      "type": "http",
+      "url": "https://mcp.storekit.com/mcp"
+    }
+  }
+}
