@@ -1,16 +1,25 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "storekit",
   "displayName": "StoreKit",
   "version": "1.0.0",
   "description": "Connects Claude to the StoreKit MCP server. Sign in with your StoreKit dashboard account via OAuth.",
   "author": {
     "name": "StoreKit",
-    "email": "devops@storekit.com"
+    "email": "devops@storekit.com",
+    "url": "https://storekit.com"
   },
-  "homepage": "https://github.com/store-kit/claude-plugin",
+  "homepage": "https://github.com/store-kit/claude-plugin#readme",
   "repository": "https://github.com/store-kit/claude-plugin",
   "license": "MIT",
-  "keywords": ["storekit", "hospitality", "orders", "mcp", "oauth"],
+  "keywords": ["storekit", "hospitality", "restaurants", "orders", "payments", "mcp", "oauth"],
+  "defaultEnabled": true,
+  "metadata": {
+    "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
+    "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/",
+    "mcpServerUrl": "https://mcp.storekit.com/mcp",
+    "auth": "oauth2.1"
+  },
   "mcpServers": "./.mcp.json",
   "skills": "./skills/"
 }

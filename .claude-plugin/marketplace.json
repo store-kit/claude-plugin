@@ -1,31 +1,50 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "storekit",
+  "description": "Claude Code plugins for StoreKit. Connects Claude to the StoreKit MCP server over OAuth.",
+  "version": "1.0.0",
   "owner": {
     "name": "StoreKit",
-    "email": "devops@storekit.com"
+    "email": "devops@storekit.com",
+    "url": "https://github.com/store-kit"
   },
   "metadata": {
-    "description": "Claude Code plugins for StoreKit. Connects Claude to the StoreKit MCP server over OAuth.",
-    "version": "1.0.0",
+    "pluginRoot": "./plugins",
     "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
     "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/"
   },
   "plugins": [
     {
       "name": "storekit",
+      "displayName": "StoreKit",
       "source": "./plugins/storekit",
       "description": "StoreKit MCP server: venues, orders, menus, stats, discounts, refunds, bills and payment links for your account. Authenticates with your StoreKit dashboard login via OAuth.",
       "version": "1.0.0",
       "author": {
-        "name": "StoreKit"
+        "name": "StoreKit",
+        "email": "devops@storekit.com",
+        "url": "https://storekit.com"
       },
-      "homepage": "https://github.com/store-kit/claude-plugin",
+      "homepage": "https://github.com/store-kit/claude-plugin#readme",
+      "repository": "https://github.com/store-kit/claude-plugin",
+      "license": "MIT",
       "category": "productivity",
+      "keywords": ["storekit", "hospitality", "restaurants", "orders", "payments", "mcp", "oauth"],
+      "tags": ["storekit", "mcp", "oauth", "hospitality", "ordering", "payment-links"],
+      "strict": true,
+      "defaultEnabled": true,
+      "relevance": {
+        "topic": "StoreKit",
+        "signals": {
+          "hosts": ["mcp.storekit.com", "api.storekit.com", "storekit.com"]
+        }
+      },
       "metadata": {
         "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
-        "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/"
-      },
-      "keywords": ["storekit", "hospitality", "orders", "mcp", "oauth"]
+        "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/",
+        "mcpServerUrl": "https://mcp.storekit.com/mcp",
+        "auth": "oauth2.1"
+      }
     }
   ]
 }
