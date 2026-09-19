@@ -1,3 +1,5 @@
+<img src="https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/" alt="StoreKit" height="48" />
+
 # StoreKit Claude Code plugin
 
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)

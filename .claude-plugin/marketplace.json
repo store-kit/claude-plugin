@@ -2,11 +2,13 @@
   "name": "storekit",
   "owner": {
     "name": "StoreKit",
-    "email": "engineering@storekit.com"
+    "email": "devops@storekit.com"
   },
   "metadata": {
     "description": "Claude Code plugins for StoreKit. Connects Claude to the StoreKit MCP server over OAuth.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
+    "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/"
   },
   "plugins": [
     {
@@ -19,6 +21,10 @@
       },
       "homepage": "https://github.com/store-kit/claude-plugin",
       "category": "productivity",
+      "metadata": {
+        "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
+        "logo": "https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/"
+      },
       "keywords": ["storekit", "hospitality", "orders", "mcp", "oauth"]
     }
   ]
