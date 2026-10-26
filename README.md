@@ -1,6 +1,6 @@
 <img src="https://ucarecdn.com/20d662e7-f923-4257-abce-3cb8e7db1d7e/-/format/auto/" alt="StoreKit" height="48" />
 
-# StoreKit Claude Code plugin
+# storekit Claude plugin
 
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
 containing the **storekit** plugin, which connects Claude Code to the StoreKit
@@ -23,7 +23,9 @@ your browser; sign in with your StoreKit dashboard account and you are done.
 plugins/storekit/
   .claude-plugin/plugin.json             Plugin manifest
   .mcp.json                              Remote HTTP MCP server definition
-  skills/storekit-mcp/SKILL.md           Usage notes Claude loads when working with the tools
+  skills/storekit-manager/SKILL.md       How Claude answers storekit questions and makes changes
+  commands/*.md                          weekly-review, end-of-day, sold-out, promo-code
+  README.md, LICENSE                     Listing text and licence the directory reads
 ```
 
 ## How the OAuth flow works
