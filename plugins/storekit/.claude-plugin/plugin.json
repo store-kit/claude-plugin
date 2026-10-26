@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "storekit",
-  "displayName": "StoreKit",
-  "version": "1.0.0",
-  "description": "Connects Claude to the StoreKit MCP server. Sign in with your StoreKit dashboard account via OAuth.",
+  "displayName": "storekit",
+  "version": "1.1.0",
+  "description": "Ask Claude about sales, takings, orders, refunds, menus, guests and reviews across your storekit stores, and make approved changes like snoozes, discount codes and payment links. Includes a storekit manager skill and four ready-made commands.",
   "author": {
     "name": "StoreKit",
     "email": "mcp@storekit.com",
@@ -12,7 +12,15 @@
   "homepage": "https://github.com/store-kit/claude-plugin#readme",
   "repository": "https://github.com/store-kit/claude-plugin",
   "license": "MIT",
-  "keywords": ["storekit", "hospitality", "restaurants", "orders", "payments", "mcp", "oauth"],
+  "keywords": [
+    "storekit",
+    "hospitality",
+    "restaurants",
+    "orders",
+    "payments",
+    "mcp",
+    "oauth"
+  ],
   "defaultEnabled": true,
   "metadata": {
     "icon": "https://raw.githubusercontent.com/store-kit/claude-plugin/main/assets/icon.png",
@@ -21,5 +29,7 @@
     "auth": "oauth2.1"
   },
   "mcpServers": "./.mcp.json",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "privacyPolicyUrl": "https://storekit.com/privacy-policy"
 }
